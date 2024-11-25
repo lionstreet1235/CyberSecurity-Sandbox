@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Mô phỏng XSS</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<h1>Mô phỏng Cross-site Scripting (XSS)</h1>
+<form action="/xss/submit" method="post">
+  <label for="comment">Nhập bình luận:</label>
+  <textarea id="comment" name="comment" required></textarea>
+  <button type="submit">Gửi</button>
+</form>
+</body>
+</html>

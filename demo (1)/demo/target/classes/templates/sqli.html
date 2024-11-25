@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Mô phỏng SQL Injection</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<h1>Mô phỏng SQL Injection</h1>
+<form action="/sql/search" method="get">
+  <label for="query">Nhập tên người dùng:</label>
+  <input type="text" id="query" name="query" required>
+  <button type="submit">Tìm kiếm</button>
+</form>
+</body>
+</html>
